@@ -1,0 +1,147 @@
+@charset "UTF-8";
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-size: cover;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-image: url(paint.png);
+}
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+/*Float Aside so it disples next to Main*/
+aside {
+	width: 150px;
+	height: 3450px;
+	float: left;
+	background-color: #C7F1F3;
+}
+header{
+	width: 768px;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin: auto;
+	background-image: url(Screen%20Shot%202023-03-09%20at%2012.42.48%20PM.png);
+}
+main{
+	width: 598px;
+	height: 3450px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #FFFFFF;
+}
+
+h1{
+	color: #92D6D4;
+	font-family: miller-display, serif;
+	font-style: normal;
+	font-weight: 500;
+}
+p{
+	font-family: miller-display, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h4{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #000607;
+	font-family: miller-display, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+footer{
+	width: 768px;
+	height: 30px;
+	clear: both;
+	background-color: #CCEBEF;
+}
+img {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: miller-display, serif;
+}
+.floatLeft{
+	
+	float:left;
+}
+
+article {
+	margin-bottom: 50px;
+}
+nav {
+	width: 768px;
+	height: 50px;
+	background-color: #FFFFFF;
+	color: #91DDDA;
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width:65px;
+	margin-right: 60px;
+	font-family:"miller-display", serif;
+	font-size:24pt
+		
+
+}
+#container nav ul {
+	margin: auto;
+	width: 500px;
+	font-style: normal;
+	font-weight: 700;
+}
+nav a:link {
+	color: #C7F1F3;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #4DA69F;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #FFFBFB;
+	text-decoration: none;
+	background-color:#C7F1F3;
+	padding:5px;
+	border-radius:20px;
+}
+nav a:active {
+	color: #80C2E3;
+	text-decoration: none;
+}
+.submit_btn {
+	border-radius: 10px;
+	background-color: #C7F1F4;
+	color: #008489;
+	width: 170px;
+	height: 30px;
+	font-size: 16px;
+	
+}
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #808080;
+	box-shadow: 6px 6px 35px 1px #808080;
+	font-size: 16px;
+}
+
+th {
+}
